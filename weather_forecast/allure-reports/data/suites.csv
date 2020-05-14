@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu May 14 16:30:37 IST 2020","Thu May 14 16:30:39 IST 2020","1308","weather_forecast","test_london","TestLondon","","","test_check_status_code",""
+"passed","Thu May 14 16:30:43 IST 2020","Thu May 14 16:30:44 IST 2020","1033","weather_forecast","test_london","TestLondon","","","test_weather_description_check",""
+"passed","Thu May 14 16:30:41 IST 2020","Thu May 14 16:30:43 IST 2020","1430","weather_forecast","test_london","TestLondon","","","test_temperature_check",""
+"passed","Thu May 14 16:30:40 IST 2020","Thu May 14 16:30:41 IST 2020","1186","weather_forecast","test_london","TestLondon","","","test_forecast_hourly_interval_check",""
+"failed","Thu May 14 16:30:39 IST 2020","Thu May 14 16:30:40 IST 2020","1444","weather_forecast","test_london","TestLondon","","","test_number_of_days_data_check",""

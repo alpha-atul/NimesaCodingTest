@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "weather_forecast.test_london",
+    "children" : [ {
+      "name" : "test_check_status_code",
+      "uid" : "2fd818afaf9c3f1c",
+      "parentUid" : "7be220cd885a5aaed3e9c36b3cd9cd8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589454037751,
+        "stop" : 1589454039059,
+        "duration" : 1308
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_number_of_days_data_check",
+      "uid" : "32ce39cf53966c1f",
+      "parentUid" : "7be220cd885a5aaed3e9c36b3cd9cd8a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1589454039074,
+        "stop" : 1589454040518,
+        "duration" : 1444
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_forecast_hourly_interval_check",
+      "uid" : "949b24774be0aabc",
+      "parentUid" : "7be220cd885a5aaed3e9c36b3cd9cd8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589454040636,
+        "stop" : 1589454041822,
+        "duration" : 1186
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_temperature_check",
+      "uid" : "c00705fec6bff932",
+      "parentUid" : "7be220cd885a5aaed3e9c36b3cd9cd8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589454041837,
+        "stop" : 1589454043267,
+        "duration" : 1430
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_weather_description_check",
+      "uid" : "e5eaedf6171904a2",
+      "parentUid" : "7be220cd885a5aaed3e9c36b3cd9cd8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1589454043281,
+        "stop" : 1589454044314,
+        "duration" : 1033
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "weather_forecast.test_london"
+  } ]
+}

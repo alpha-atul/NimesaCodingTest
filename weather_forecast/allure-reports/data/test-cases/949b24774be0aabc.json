@@ -1,0 +1,59 @@
+{
+  "uid" : "949b24774be0aabc",
+  "name" : "test_forecast_hourly_interval_check",
+  "fullName" : "weather_forecast.test_london.TestLondon#test_forecast_hourly_interval_check",
+  "historyId" : "0a329aa8ac2a7b59ce60c8efc91bb743",
+  "time" : {
+    "start" : 1589454040636,
+    "stop" : 1589454041822,
+    "duration" : 1186
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "weather_forecast"
+  }, {
+    "name" : "suite",
+    "value" : "test_london"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLondon"
+  }, {
+    "name" : "host",
+    "value" : "INLT370"
+  }, {
+    "name" : "thread",
+    "value" : "29996-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "weather_forecast.test_london"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "949b24774be0aabc.json",
+  "parameterValues" : [ ]
+}

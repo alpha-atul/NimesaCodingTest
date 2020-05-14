@@ -1,0 +1,78 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "INLT370",
+    "children" : [ {
+      "name" : "29996-MainThread",
+      "children" : [ {
+        "name" : "test_number_of_days_data_check",
+        "uid" : "32ce39cf53966c1f",
+        "parentUid" : "e4f22f6b874c1fbb85b8578f21d5754c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1589454039074,
+          "stop" : 1589454040518,
+          "duration" : 1444
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_check_status_code",
+        "uid" : "2fd818afaf9c3f1c",
+        "parentUid" : "e4f22f6b874c1fbb85b8578f21d5754c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589454037751,
+          "stop" : 1589454039059,
+          "duration" : 1308
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_weather_description_check",
+        "uid" : "e5eaedf6171904a2",
+        "parentUid" : "e4f22f6b874c1fbb85b8578f21d5754c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589454043281,
+          "stop" : 1589454044314,
+          "duration" : 1033
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_temperature_check",
+        "uid" : "c00705fec6bff932",
+        "parentUid" : "e4f22f6b874c1fbb85b8578f21d5754c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589454041837,
+          "stop" : 1589454043267,
+          "duration" : 1430
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_forecast_hourly_interval_check",
+        "uid" : "949b24774be0aabc",
+        "parentUid" : "e4f22f6b874c1fbb85b8578f21d5754c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1589454040636,
+          "stop" : 1589454041822,
+          "duration" : 1186
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e4f22f6b874c1fbb85b8578f21d5754c"
+    } ],
+    "uid" : "ebb951464f07d6469409f44fa9412432"
+  } ]
+}

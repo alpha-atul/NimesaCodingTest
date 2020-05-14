@@ -1,0 +1,59 @@
+{
+  "uid" : "c00705fec6bff932",
+  "name" : "test_temperature_check",
+  "fullName" : "weather_forecast.test_london.TestLondon#test_temperature_check",
+  "historyId" : "d104e876ed5a4f810eed8a7cff7dc6c8",
+  "time" : {
+    "start" : 1589454041837,
+    "stop" : 1589454043267,
+    "duration" : 1430
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "weather_forecast"
+  }, {
+    "name" : "suite",
+    "value" : "test_london"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLondon"
+  }, {
+    "name" : "host",
+    "value" : "INLT370"
+  }, {
+    "name" : "thread",
+    "value" : "29996-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "weather_forecast.test_london"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c00705fec6bff932.json",
+  "parameterValues" : [ ]
+}

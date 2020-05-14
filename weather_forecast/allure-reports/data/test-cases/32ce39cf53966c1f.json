@@ -1,0 +1,65 @@
+{
+  "uid" : "32ce39cf53966c1f",
+  "name" : "test_number_of_days_data_check",
+  "fullName" : "weather_forecast.test_london.TestLondon#test_number_of_days_data_check",
+  "historyId" : "6690b923a41b854b32c5d900f3180493",
+  "time" : {
+    "start" : 1589454039074,
+    "stop" : 1589454040518,
+    "duration" : 1444
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 5 == 4\n  -5\n  +4",
+  "statusTrace" : "self = <weather_forecast.test_london.TestLondon object at 0x04224910>\n\n    @allure.severity(allure.severity_level.CRITICAL)\n    def test_number_of_days_data_check(self):\n        global request\n        response = requests.get(self.request)\n        response_body = response.json()\n        count = len(response_body[\"list\"])\n        list1 = []\n        for i in range(count):\n            date_time = response_body[\"list\"][i][\"dt_txt\"]\n            date = date_time.split(\" \")[0]\n            if date not in list1:\n                list1.append(date)\n>       assert len(list1) == 4\nE       assert 5 == 4\nE         -5\nE         +4\n\nweather_forecast\\test_london.py:27: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "parentSuite",
+    "value" : "weather_forecast"
+  }, {
+    "name" : "suite",
+    "value" : "test_london"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLondon"
+  }, {
+    "name" : "host",
+    "value" : "INLT370"
+  }, {
+    "name" : "thread",
+    "value" : "29996-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "weather_forecast.test_london"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "32ce39cf53966c1f.json",
+  "parameterValues" : [ ]
+}

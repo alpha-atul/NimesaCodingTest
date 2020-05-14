@@ -1,0 +1,82 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "weather_forecast",
+    "children" : [ {
+      "name" : "test_london",
+      "children" : [ {
+        "name" : "TestLondon",
+        "children" : [ {
+          "name" : "test_check_status_code",
+          "uid" : "2fd818afaf9c3f1c",
+          "parentUid" : "d88d6f2611295352296352448181eb95",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589454037751,
+            "stop" : 1589454039059,
+            "duration" : 1308
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_number_of_days_data_check",
+          "uid" : "32ce39cf53966c1f",
+          "parentUid" : "d88d6f2611295352296352448181eb95",
+          "status" : "failed",
+          "time" : {
+            "start" : 1589454039074,
+            "stop" : 1589454040518,
+            "duration" : 1444
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_forecast_hourly_interval_check",
+          "uid" : "949b24774be0aabc",
+          "parentUid" : "d88d6f2611295352296352448181eb95",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589454040636,
+            "stop" : 1589454041822,
+            "duration" : 1186
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_temperature_check",
+          "uid" : "c00705fec6bff932",
+          "parentUid" : "d88d6f2611295352296352448181eb95",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589454041837,
+            "stop" : 1589454043267,
+            "duration" : 1430
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_weather_description_check",
+          "uid" : "e5eaedf6171904a2",
+          "parentUid" : "d88d6f2611295352296352448181eb95",
+          "status" : "passed",
+          "time" : {
+            "start" : 1589454043281,
+            "stop" : 1589454044314,
+            "duration" : 1033
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d88d6f2611295352296352448181eb95"
+      } ],
+      "uid" : "8a1198f2614800bb03a0b5190b05e25a"
+    } ],
+    "uid" : "351450d569fcd46e82916ad934b95fab"
+  } ]
+}

@@ -1,0 +1,51 @@
+[ {
+  "uid" : "949b24774be0aabc",
+  "name" : "test_forecast_hourly_interval_check",
+  "time" : {
+    "start" : 1589454040636,
+    "stop" : 1589454041822,
+    "duration" : 1186
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c00705fec6bff932",
+  "name" : "test_temperature_check",
+  "time" : {
+    "start" : 1589454041837,
+    "stop" : 1589454043267,
+    "duration" : 1430
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "32ce39cf53966c1f",
+  "name" : "test_number_of_days_data_check",
+  "time" : {
+    "start" : 1589454039074,
+    "stop" : 1589454040518,
+    "duration" : 1444
+  },
+  "status" : "failed",
+  "severity" : "critical"
+}, {
+  "uid" : "e5eaedf6171904a2",
+  "name" : "test_weather_description_check",
+  "time" : {
+    "start" : 1589454043281,
+    "stop" : 1589454044314,
+    "duration" : 1033
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "2fd818afaf9c3f1c",
+  "name" : "test_check_status_code",
+  "time" : {
+    "start" : 1589454037751,
+    "stop" : 1589454039059,
+    "duration" : 1308
+  },
+  "status" : "passed",
+  "severity" : "blocker"
+} ]
